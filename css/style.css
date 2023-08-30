@@ -112,4 +112,57 @@ h3, h4 {
   background-color: aqua;
 }
 
+.boton-uno, .boton-cuatro {
+  margin-top: 10px;
+  display: block;
+  background-color: yellow;
+  color: brown;
+  width: 150px;
+  font-family: "Helvetica";
+  transition: 2s;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton-uno:hover, .boton-cuatro:hover {
+  background-color: black;
+}
+
+.boton-dos {
+  margin-top: 25px;
+  margin-left: 25px;
+  display: block;
+  background-color: green;
+  color: white;
+  width: 100px;
+  font-family: "Monospace";
+  transition: 1s;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton-dos:hover {
+  background-color: black;
+}
+
+.boton-tres {
+  display: block;
+  margin-top: 55px;
+  margin-left: 100px;
+  background-color: blue;
+  color: yellow;
+  width: 190px;
+  font-family: "Arial";
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton-tres:hover {
+  background-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

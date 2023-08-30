@@ -1,0 +1,44 @@
+// CREAR
+
+@mixin button-styles($bg-color, $text-color,$ancho, $font, $time){
+    background-color: $bg-color;
+    color: $text-color;
+    width: $ancho;
+    font-family: $font;
+    transition: $time;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+    &:hover{
+        background-color: black;
+    }
+}
+
+.boton-uno{
+    margin-top: 10px;
+    display: block;
+    @include button-styles(yellow, brown , 150px, 'Helvetica', 2s)
+}
+
+ .boton-dos{
+    margin-top: 25px;
+    margin-left: 25px;
+    display: block;
+    @include button-styles( green, white, 100px, 'Monospace', 1s)
+ }
+
+ .boton-tres{
+
+    display: block;
+    margin-top: 55px;
+    margin-left: 100px;
+
+    @include button-styles( blue, yellow ,190px ,"Arial" , 0.3s)
+ }
+
+ .boton-cuatro{
+     @extend .boton-uno;
+ }
