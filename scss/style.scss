@@ -1,0 +1,16 @@
+// STYLE SCSS ES EL ARCHIVO RAÍZ 
+
+@import 'layout/header';
+@import 'layout/informacion';
+@import 'layout/section-principal';
+@import 'layout/media768';
+@import 'layout/media320';
+// BASE
+@import 'base/reset';
+// UTILITIES
+@import 'utilities/variables';
+// COMPONENTS
+@import 'components/botones';
+// EXTEND
+@import 'utilities/extend';
+

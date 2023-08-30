@@ -1,0 +1,10 @@
+h3{
+    color: white;
+    font-family: $fuente-titulo;
+    background-color: aqua;
+
+}
+
+h4{
+    @extend h3;
+}

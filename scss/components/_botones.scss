@@ -1,0 +1,42 @@
+// MIXIN
+
+@mixin mixin-boton{
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: blue
+}
+
+@mixin parametro{
+    border-radius: 50px;
+    font-family: 40px;
+}
+
+@mixin cuadradro($size, $radius: 0) {
+    width: $size;
+    height: $size;
+  
+}
+.avatar {
+    @include cuadradro(100px, $radius: 4px);
+}
+
+@mixin boton($borde, $color, $padding){
+    border-radius: $borde;
+    background-color: $color;
+    padding: $padding;
+}
+
+@mixin font($fuente, $tamano, $ancho){
+
+    font-family: $fuente;
+    font-size: $tamano;
+    font-weight: $ancho;
+    
+}
+
+.enlace{
+    @include font('Courier New', 20px , bold)
+}
+
+
