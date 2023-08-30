@@ -112,7 +112,7 @@ h3, h4 {
   background-color: aqua;
 }
 
-.boton-uno, .boton-cuatro {
+.boton-uno {
   margin-top: 10px;
   display: block;
   background-color: yellow;
@@ -125,7 +125,7 @@ h3, h4 {
   border-radius: 5px;
   cursor: pointer;
 }
-.boton-uno:hover, .boton-cuatro:hover {
+.boton-uno:hover {
   background-color: black;
 }
 
@@ -147,7 +147,7 @@ h3, h4 {
   background-color: black;
 }
 
-.boton-tres {
+.boton-tres, .boton-cuatro {
   display: block;
   margin-top: 55px;
   margin-left: 100px;
@@ -161,7 +161,7 @@ h3, h4 {
   border-radius: 5px;
   cursor: pointer;
 }
-.boton-tres:hover {
+.boton-tres:hover, .boton-cuatro:hover {
   background-color: black;
 }
 
